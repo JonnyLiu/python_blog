@@ -1,0 +1,20 @@
+2018-05-27 23:55:33,783 [Thread-7:11700] [blog.views:14] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2018-05-28 00:05:10,801 [Thread-7:12128] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2018-05-28 00:06:01,210 [Thread-8:10880] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2018-05-28 00:06:41,122 [Thread-2:5188] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2018-05-28 00:06:52,069 [Thread-8:12160] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2018-05-28 00:07:29,253 [Thread-21:8544] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2018-05-28 00:30:36,657 [Thread-7:11440] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2018-05-28 16:51:33,811 [Thread-2:7840] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 16:51:38,217 [Thread-5:3752] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 16:51:42,289 [Thread-8:2636] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 16:51:45,551 [Thread-11:7776] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 16:55:50,908 [Thread-14:8608] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 16:57:08,585 [Thread-19:10332] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 16:57:14,361 [Thread-22:9084] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 16:57:17,134 [Thread-23:6436] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 17:00:37,964 [Thread-2:10968] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 17:00:41,704 [Thread-5:7284] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 17:04:52,309 [Thread-50:1748] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 17:04:58,247 [Thread-53:2508] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2018-05-28 17:10:33,688 [Thread-2:4812] [blog.views:34] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)

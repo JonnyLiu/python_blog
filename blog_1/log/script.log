@@ -1,0 +1,1023 @@
+2018-05-27 23:55:35,628 [Thread-5:7092] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-27 23:55:35,628 [Thread-6:1908] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-27 23:55:35,644 [Thread-4:13044] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-27 23:55:35,657 [Thread-3:976] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-27 23:55:35,667 [Thread-2:7032] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-27 23:55:35,716 [Thread-8:12656] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:05:10,812 [Thread-7:12128] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Python_Studio\blog_1\blog\views.py", line 20, in index
+    return render(request, "index.html", locals())
+  File "F:\workspace\blog_1\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "F:\python_environment\Python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "F:\workspace\blog_1\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2018-05-28 00:06:01,216 [Thread-8:10880] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Python_Studio\blog_1\blog\views.py", line 20, in index
+    return render(request, "index.html", locals())
+  File "F:\workspace\blog_1\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "F:\python_environment\Python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "F:\workspace\blog_1\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2018-05-28 00:06:41,250 [Thread-3:5056] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:06:41,252 [Thread-4:1692] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 00:06:41,266 [Thread-5:11440] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 00:06:41,276 [Thread-6:13056] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 00:06:41,288 [Thread-7:13284] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 00:06:52,115 [Thread-9:8248] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 00:06:52,119 [Thread-10:6856] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:06:52,128 [Thread-11:12572] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 00:06:52,140 [Thread-12:1320] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 00:06:52,151 [Thread-13:11100] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 00:06:52,250 [Thread-14:5476] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:07:29,302 [Thread-22:7856] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:07:29,303 [Thread-23:4856] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 00:07:29,312 [Thread-24:5312] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 00:07:29,322 [Thread-25:13184] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 00:07:29,332 [Thread-26:1484] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 00:07:29,387 [Thread-27:2836] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:30:38,415 [Thread-6:3388] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:30:38,421 [Thread-5:10904] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 00:30:38,434 [Thread-4:6784] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 00:30:38,447 [Thread-3:11100] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 00:30:38,460 [Thread-2:12116] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 00:30:38,509 [Thread-8:1580] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:37:54,111 [Thread-7:10472] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:37:54,112 [Thread-9:9332] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 00:37:54,134 [Thread-10:7620] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 00:37:54,155 [Thread-11:10256] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 00:37:54,176 [Thread-12:7044] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 00:37:54,233 [Thread-13:12744] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:37:59,999 [Thread-14:10836] [django.request:152] [base:get_response] [WARNING]- Not Found: /damin
+2018-05-28 00:43:46,323 [Thread-6:12108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:43:46,325 [Thread-5:9936] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 00:43:46,335 [Thread-4:8644] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 00:43:46,345 [Thread-3:2364] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 00:43:46,357 [Thread-2:11152] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 00:43:46,407 [Thread-8:10460] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:53:56,158 [Thread-24:3520] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/1/change/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1511, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1437, in _changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 651, in get_form
+    % (e, self.__class__.__name__)
+FieldError: 'date_publish' cannot be specified for Article model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ArticleAdmid.
+2018-05-28 00:54:00,943 [Thread-27:1220] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1437, in _changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 651, in get_form
+    % (e, self.__class__.__name__)
+FieldError: 'date_publish' cannot be specified for Article model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ArticleAdmid.
+2018-05-28 00:55:09,441 [Thread-6:5748] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 00:55:09,443 [Thread-5:5496] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 00:55:09,457 [Thread-4:10628] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 00:55:09,464 [Thread-3:6836] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 00:55:09,474 [Thread-2:1068] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 00:55:09,509 [Thread-8:13140] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 01:23:13,586 [Thread-5:10836] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 01:23:13,588 [Thread-4:3932] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 01:23:13,601 [Thread-3:2532] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 01:23:13,615 [Thread-2:9796] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 01:23:13,628 [Thread-7:2248] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 01:23:13,740 [Thread-8:9568] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 01:47:53,319 [Thread-2:9232] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 01:49:33,190 [Thread-3:5316] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 01:52:27,967 [Thread-5:8544] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 08:26:09,539 [Thread-6:11076] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 08:26:09,569 [Thread-5:7516] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 08:26:09,631 [Thread-4:11144] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 08:26:09,634 [Thread-3:8240] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 08:26:09,635 [Thread-2:9240] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 08:26:10,096 [Thread-8:10164] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-28 08:27:20,904 [Thread-41:11040] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 08:27:46,418 [Thread-42:7560] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 08:48:50,243 [Thread-2:7068] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 08:51:22,463 [Thread-8:10896] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 08:58:59,786 [Thread-2:10272] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 09:19:32,144 [Thread-5:9988] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 09:20:10,737 [Thread-10:12088] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2018-05-28 09:57:43,075 [Thread-22:5596] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2018-05-28 09:58:01,703 [Thread-24:9388] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2018-05-28 09:58:39,848 [Thread-6:11576] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 09:58:39,852 [Thread-5:1344] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 09:58:39,882 [Thread-4:10308] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 09:58:39,894 [Thread-3:12136] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 09:58:39,904 [Thread-2:5708] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 09:58:39,920 [Thread-8:6560] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 09:58:41,443 [Thread-9:7268] [django.request:152] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-28 09:58:59,765 [Thread-14:5864] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2018-05-28 10:01:30,364 [Thread-5:3764] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 10:01:30,365 [Thread-6:12004] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 10:01:30,378 [Thread-4:4428] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 10:01:30,415 [Thread-3:10996] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 10:01:30,427 [Thread-2:12120] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 10:01:30,447 [Thread-8:680] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 10:01:46,302 [Thread-16:11620] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2018-05-28 10:03:56,453 [Thread-3:8236] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 10:03:56,453 [Thread-4:11688] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 10:03:56,467 [Thread-5:10328] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 10:03:56,477 [Thread-6:9608] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 10:03:56,489 [Thread-7:8128] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 10:03:56,519 [Thread-8:10932] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 10:05:45,433 [Thread-3:10156] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 10:05:45,434 [Thread-4:10848] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 10:05:45,447 [Thread-5:8420] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 10:05:45,459 [Thread-6:5812] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 10:05:45,469 [Thread-7:7368] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 10:05:45,568 [Thread-8:4560] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 10:05:45,911 [Thread-9:12248] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-28 10:27:46,243 [Thread-12:2672] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-28 10:28:03,296 [Thread-36:9464] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2018-05-28 10:29:00,178 [Thread-38:7344] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2018-05-28 10:29:03,561 [Thread-40:11292] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2018-05-28 10:33:53,904 [Thread-7:11060] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 10:33:55,595 [Thread-8:3684] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 10:33:55,618 [Thread-9:7920] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 10:33:55,653 [Thread-10:11004] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 10:33:55,667 [Thread-11:5460] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 10:33:55,668 [Thread-12:7528] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 10:33:56,072 [Thread-26:11040] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-28 10:34:35,466 [Thread-43:11152] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2018-05-28 11:03:43,267 [Thread-6:1852] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:03:43,269 [Thread-5:1356] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 11:03:43,308 [Thread-4:1468] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 11:03:43,322 [Thread-3:12244] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 11:03:43,335 [Thread-2:2968] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 11:03:43,493 [Thread-8:2248] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:07:01,717 [Thread-15:5348] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-05-28 11:08:58,279 [Thread-3:8452] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:08:58,378 [Thread-5:1900] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-05-28 11:08:58,381 [Thread-6:9436] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-05-28 11:08:58,384 [Thread-7:10948] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-05-28 11:08:58,390 [Thread-8:1408] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:09:45,398 [Thread-3:5572] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:09:45,575 [Thread-8:11028] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:13:32,619 [Thread-3:12144] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:13:32,707 [Thread-4:2768] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:14:19,858 [Thread-9:12004] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:14:19,956 [Thread-10:10140] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:19:32,543 [Thread-3:1412] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:19:32,632 [Thread-4:11476] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:33:04,493 [Thread-3:8148] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:33:04,605 [Thread-4:11736] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:33:57,631 [Thread-8:9384] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Python_Studio\blog_1\blog\views.py", line 21, in index
+    return render(request, "index.html", {'category_list': category_list})
+  File "F:\workspace\blog_1\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader_tags.py", line 154, in render
+    compiled_parent = self.get_parent(context)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader_tags.py", line 151, in get_parent
+    return self.find_template(parent, context)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader_tags.py", line 131, in find_template
+    template_name, skip=history,
+  File "F:\workspace\blog_1\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid block tag on line 28: 'category.name', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2018-05-28 11:34:49,631 [Thread-15:6832] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:34:49,732 [Thread-16:10848] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:34:51,374 [Thread-18:12208] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:34:52,276 [Thread-20:6164] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:36:02,301 [Thread-25:5040] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:36:04,154 [Thread-3:12008] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:36:31,329 [Thread-4:5760] [django.request:152] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-28 11:38:36,834 [Thread-43:7512] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:38:36,882 [Thread-44:5676] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:38:38,842 [Thread-46:8304] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:38:38,905 [Thread-47:10040] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:38:47,476 [Thread-49:4168] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:38:48,605 [Thread-2:5056] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:38:59,348 [Thread-3:5356] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 11:39:01,289 [Thread-4:10144] [django.request:152] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-28 14:23:26,697 [Thread-7:8432] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 14:23:29,043 [Thread-10:6156] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 14:23:31,453 [Thread-26:9028] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-28 14:23:33,193 [Thread-28:10012] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 14:23:33,227 [Thread-29:10116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 14:23:47,921 [Thread-33:9028] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 14:24:07,200 [Thread-68:10312] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 14:24:07,239 [Thread-69:6732] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 14:47:15,332 [Thread-73:7468] [django.request:152] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-28 14:47:27,417 [Thread-74:1848] [django.request:152] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-28 15:29:29,233 [Thread-3:1744] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:29:29,328 [Thread-4:3672] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:32:28,757 [Thread-8:6736] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Python_Studio\blog_1\blog\views.py", line 32, in index
+    return render(request, "index.html", locals())
+  File "F:\workspace\blog_1\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid filter: 'data'
+2018-05-28 15:32:41,868 [Thread-14:6260] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Python_Studio\blog_1\blog\views.py", line 32, in index
+    return render(request, "index.html", locals())
+  File "F:\workspace\blog_1\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\workspace\blog_1\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "F:\workspace\blog_1\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "F:\workspace\blog_1\lib\site-packages\django\template\base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid filter: 'data'
+2018-05-28 15:33:16,368 [Thread-21:2580] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:33:16,470 [Thread-22:8108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:33:33,743 [Thread-28:6528] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "F:\workspace\blog_1\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "F:\workspace\blog_1\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "F:\python_environment\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2018-05-28 15:40:58,851 [Thread-22:9268] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:40:58,901 [Thread-23:7280] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:41:44,904 [Thread-29:5548] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:41:44,963 [Thread-30:8548] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:43:12,292 [Thread-32:7324] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:43:12,362 [Thread-33:9048] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:45:14,615 [Thread-3:4960] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:45:14,671 [Thread-4:8720] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:45:21,220 [Thread-6:6608] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:45:21,263 [Thread-7:4812] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:16,717 [Thread-28:2344] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:16,767 [Thread-29:9632] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:21,407 [Thread-31:7212] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:21,453 [Thread-32:7036] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:30,948 [Thread-3:3740] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:31,009 [Thread-4:6616] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:34,548 [Thread-6:7480] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:34,611 [Thread-7:10996] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:36,437 [Thread-9:5564] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:36,473 [Thread-10:5404] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:38,194 [Thread-12:5544] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:38,229 [Thread-13:5596] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:39,668 [Thread-15:7936] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:39,710 [Thread-16:6840] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:47:47,282 [Thread-17:5440] [django.request:152] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-28 15:56:24,207 [Thread-3:484] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:56:24,249 [Thread-4:11244] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:56:38,026 [Thread-6:10304] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 15:56:38,084 [Thread-7:7684] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:02:07,255 [Thread-6:3252] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:02:07,323 [Thread-5:8252] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:02:08,516 [Thread-4:3020] [django.request:152] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-28 16:02:12,551 [Thread-2:8068] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:02:12,592 [Thread-8:7600] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:51:33,892 [Thread-3:11224] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:51:34,000 [Thread-4:3644] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:51:38,289 [Thread-6:1592] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:51:38,338 [Thread-7:8992] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:51:42,770 [Thread-9:6704] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:51:42,828 [Thread-10:1520] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:51:45,611 [Thread-12:972] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:51:45,654 [Thread-13:7256] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:55:50,964 [Thread-15:10444] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:55:51,051 [Thread-16:10136] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:57:09,776 [Thread-18:684] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:57:09,878 [Thread-17:4924] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:57:14,417 [Thread-21:8712] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:57:14,464 [Thread-20:9824] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:57:17,177 [Thread-24:6520] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 16:57:17,217 [Thread-25:6780] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:00:38,020 [Thread-3:8820] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:00:38,163 [Thread-4:6892] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:00:41,766 [Thread-6:3040] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:00:41,815 [Thread-7:808] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:04:52,358 [Thread-51:5592] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:04:52,411 [Thread-52:5068] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:04:58,308 [Thread-54:2056] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:04:58,345 [Thread-55:8408] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:05:56,938 [Thread-3:1480] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:05:57,022 [Thread-4:5412] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:10:33,747 [Thread-3:348] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:10:33,806 [Thread-4:10360] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:13:16,239 [Thread-3:4240] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:13:16,312 [Thread-4:7292] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:13:18,115 [Thread-6:4772] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:13:18,150 [Thread-7:7556] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:19:58,059 [Thread-3:3272] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:19:58,101 [Thread-4:9636] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:20:00,823 [Thread-5:9980] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive
+Traceback (most recent call last):
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\workspace\blog_1\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Python_Studio\blog_1\blog\views.py", line 38, in archive
+    return render(request)
+TypeError: render() takes at least 2 arguments (1 given)
+2018-05-28 17:20:03,466 [Thread-6:5572] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:22:11,371 [Thread-3:10772] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:22:11,443 [Thread-4:11108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:22:12,976 [Thread-6:11196] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:22:13,026 [Thread-7:4756] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:27:57,359 [Thread-3:5624] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:27:57,417 [Thread-4:3724] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:27:59,766 [Thread-6:4056] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:27:59,812 [Thread-7:5676] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:24,934 [Thread-3:9124] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:24,997 [Thread-4:348] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:29,161 [Thread-6:2944] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:29,201 [Thread-7:5496] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:36,931 [Thread-9:6916] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:36,973 [Thread-10:8392] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:39,441 [Thread-12:10460] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:39,473 [Thread-13:5288] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:46,466 [Thread-15:3644] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:46,512 [Thread-16:6488] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:49,957 [Thread-17:6436] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:51,089 [Thread-19:6792] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:30:51,131 [Thread-20:9996] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:36:30,940 [Thread-5:10064] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:36:31,002 [Thread-6:11224] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:36:37,138 [Thread-8:3408] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:36:37,197 [Thread-9:8592] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:38:54,437 [Thread-3:5232] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:38:54,486 [Thread-4:2012] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:38:57,841 [Thread-6:10116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:38:57,881 [Thread-7:1264] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:38:59,203 [Thread-9:7468] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 17:39:01,375 [Thread-11:5136] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:03:58,015 [Thread-3:10424] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:03:58,938 [Thread-4:10428] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:03:59,703 [Thread-5:10432] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-28 18:04:07,766 [Thread-9:10704] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:04:07,822 [Thread-10:10712] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:04:16,598 [Thread-12:10892] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:04:16,638 [Thread-13:10896] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:04:57,555 [Thread-17:10704] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:04:57,615 [Thread-18:2316] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:05:01,029 [Thread-20:9304] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:05:01,071 [Thread-21:8848] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:05:02,690 [Thread-23:8788] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 18:05:02,743 [Thread-24:10772] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:07:36,226 [Thread-26:4556] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:07:36,315 [Thread-27:7492] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:07:42,994 [Thread-29:9768] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:07:43,046 [Thread-30:6464] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:08:25,989 [Thread-32:5944] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:08:26,026 [Thread-33:2332] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:08:59,128 [Thread-41:2444] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:08:59,187 [Thread-42:8764] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:09:09,683 [Thread-44:11528] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:09:09,753 [Thread-45:11560] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:09:10,427 [Thread-47:11036] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:09:10,473 [Thread-48:11920] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:09:25,598 [Thread-50:7368] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:10:09,053 [Thread-52:1692] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:10:09,198 [Thread-53:11588] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:10:54,322 [Thread-55:11628] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:10:54,388 [Thread-56:2168] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:10:56,540 [Thread-58:5860] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:10:56,588 [Thread-59:5864] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-28 21:10:58,052 [Thread-60:12116] [django.request:152] [base:get_response] [WARNING]- Not Found: /portal.php
