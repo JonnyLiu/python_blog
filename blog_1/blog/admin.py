@@ -1,32 +1,30 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
+# -*- coding:utf-8 -*-
 from django.contrib import admin
 from models import *
-# Register your models here.
 
-#
-# class ArticleAdmid(admin.ModelAdmin):
-#      list_display = ('title', 'desc', 'content',)
+# Register your models here.
+class ArticleAdmin(admin.ModelAdmin):
+
+    # list_display = ('title', 'desc', 'click_count',)
+    # list_display_links = ('title', 'desc', )
+    # list_editable = ('click_count',)
     #
     # fieldsets = (
     #     (None, {
-    #         'fields': ('title', 'desc', 'content')
+    #         'fields': ('title', 'desc', 'content', 'user', 'category', 'tag', )
     #     }),
-    #     ('更多选择', {
+    #     ('高级设置', {
     #         'classes': ('collapse',),
-    #         'fields': ('click_count', 'is_recommend')
+    #         'fields': ('click_count', 'is_recommend',)
     #     }),
     # )
 
-class Media:
+    class Media:
         js = (
             '/static/js/kindeditor-4.1.10/kindeditor-min.js',
             '/static/js/kindeditor-4.1.10/lang/zh_CN.js',
             '/static/js/kindeditor-4.1.10/config.js',
         )
-
-
 
 admin.site.register(User)
 admin.site.register(Tag)
