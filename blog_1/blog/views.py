@@ -24,10 +24,10 @@ def global_setting(request):
     category_list = Category.objects.all()[:6]
     # 文章归档数据
     archive_list = Article.objects.distinct_date()
-    # 广告数据（同学们自己完成）
-    # 标签云数据（同学们自己完成）
-    # 友情链接数据（同学们自己完成）
-    # 文章排行榜数据（按浏览量和站长推荐的功能同学们自己完成）
+    # 广告数据
+    # 标签云数据
+    # 友情链接数据
+    # 文章排行榜数据
     # 评论排行
     comment_count_list = Comment.objects.values('article').annotate(comment_count=Count('article')).order_by('-comment_count')
     article_comment_list = [Article.objects.get(pk=comment['article']) for comment in comment_count_list]

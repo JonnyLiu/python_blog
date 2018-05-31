@@ -1070,3 +1070,11 @@ TypeError: render() takes at least 2 arguments (1 given)
 2018-05-29 01:41:55,492 [Thread-7:9672] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
 2018-05-29 01:41:57,441 [Thread-9:10300] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
 2018-05-29 01:41:57,479 [Thread-10:1724] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-05-29 18:50:07,095 [Thread-3:648] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-29 20:21:59,286 [Thread-126:10648] [django.request:152] [base:get_response] [WARNING]- Not Found: /portal.php
+2018-05-30 10:01:51,572 [Thread-3:7676] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-30 18:01:53,290 [Thread-6:11244] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-30 18:03:13,736 [Thread-34:6648] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-30 18:20:17,249 [Thread-3:9276] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-30 18:53:44,176 [Thread-3:8976] [django.request:152] [base:get_response] [WARNING]- Not Found: /A
+2018-05-30 23:27:32,846 [Thread-11:76] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
